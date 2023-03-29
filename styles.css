@@ -1,0 +1,135 @@
+* {
+    font-family: 'Nunito Sans';
+    box-sizing: border-box;
+  }
+
+
+  body {
+    margin: 0 auto;
+    padding: auto;
+    
+  }
+
+  .whole-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 600px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+  }
+
+  header{
+    color: whitesmoke;
+    font-size: 22px;
+    
+    
+}
+
+figure{
+    border: solid 1px #c0c0c0;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    padding: 5px;
+    width: 40%;
+    margin: 20px;
+    justify-content: center;
+}
+
+img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    
+    color: hsl(0, 2%, 17%);
+    font: arial smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  	align-self: center;
+}
+
+img{
+    width: 20px;
+    height: 24px;
+}
+
+
+/*h3{
+    display: flex;
+    flex-direction: row;
+}
+h3:before, h3:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid white;
+    margin: auto;
+}*/
+
+
+h3 {
+    width: 40%; 
+    text-align: center; 
+    border-bottom: 1px solid whitesmoke; 
+    line-height: 0.01em;
+    margin: 10px 0 5px;
+    
+ } 
+ 
+ h3 span { 
+     color: #fff; 
+     padding:0 10px;
+    
+ }
+ h3:after{
+    margin-right: 50px;
+ }
+
+ .phone{
+    border: solid 1px #ffff;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 50%;
+    text-align: center;
+ }
+
+ .next{
+    border: solid 1px #ffff;
+    border-radius: 22px;
+    background-color: #fff;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 40%;
+    text-align: center;
+    
+ }
+
+.password{
+    border: solid 1px #ffff;
+    border-radius: 22px;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 50%;
+    text-align: center;
+    background-color: black;
+}
+
+.account{
+    color: gray;
+}.account span{
+    color: aqua;
+}
