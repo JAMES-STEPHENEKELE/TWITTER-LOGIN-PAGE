@@ -1,1 +1,0 @@
-document.getElementByClass('logo').innerHTML
