@@ -73,30 +73,57 @@ img{
     flex-direction: row;
 }
 h3:before, h3:after {
-    content: "";
+    content: "or";
     flex: 1 1;
-    border-bottom: 2px solid white;
+
     margin: auto;
+    top: -13px;
+    position: relative;
 }*/
+hr {
+    border: none;
+    border-top: 1px solid whitesmoke;
+    color: #fcfbfb;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    margin: 10px 0 5px;
+    width: 50%; 
 
+}
 
-h3 {
+ hr:after {
+    background-color:#000;
+    content: 'or';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+/*h3 {
     width: 40%; 
     text-align: center; 
-    border-bottom: 1px solid whitesmoke; 
+    border-bottom: 1px solid red; 
     line-height: 0.01em;
     margin: 10px 0 5px;
     
  } 
+ /*hr{
+    border: none;
+    border-top: 30px solid white;
+    color: #0d0c0c;
+    overflow:visible;
+    text-align: center;
+    height: 50px;
+ } 
  
- h3 span { 
-     color: #fff; 
-     padding:0 10px;
-    
- }
- h3:after{
-    margin-right: 50px;
- }
+ hr:after{
+    background: #fff;
+    content: 'or';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+ }*/
 
  .phone{
     border: solid 1px #ffff;
